@@ -1,5 +1,5 @@
 {
-  "name": "@mothership/framebus",
+  "name": "@mothershipvc/framebus",
   "description": "This is a fork of the braintree framebus, which enables the developer to decide on the iframe instance to emit to ",
   "repository": {
     "type": "git",
