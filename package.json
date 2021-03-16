@@ -3,9 +3,9 @@
   "description": "This is a fork of the braintree framebus, which enables the developer to decide on the iframe instance to emit to ",
   "repository": {
     "type": "git",
-    "url": "git@github.com:xe4me/framebus.git"
+    "url": "git@github.com:mothershipvc/framebus.git",
   },
-  "homepage": "https://github.com/xe4me/framebus.git",
+  "homepage": "https://github.com/mothershipvc/framebus.git",
   "version": "5.1.2",
   "main": "dist/index.js",
   "files": [
