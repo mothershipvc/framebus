@@ -77,7 +77,7 @@ export class Framebus {
     eventName: string,
     data?: FramebusSubscriberArg | FramebusReplyHandler,
     reply?: FramebusReplyHandler,
-    _window=window.top || window.self
+    _window = window.top || window.self
   ): boolean {
     if (this.isDestroyed) {
       return false;
