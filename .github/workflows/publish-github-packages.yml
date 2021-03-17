@@ -10,7 +10,7 @@ on:
 
   push:
     branches:
-      - feature-test
+      - master
 
 jobs:
   build:
