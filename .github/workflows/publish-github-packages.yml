@@ -31,7 +31,7 @@ jobs:
       - name: Setup ENV
         run: |
           echo "NODE_AUTH_TOKEN=${{ secrets.Github_TOKEN }}" >> $GITHUB_ENV
-          echo "CI=true" >> $GITHUB_ENV
+          echo "CI=false" >> $GITHUB_ENV
           echo "BUILD_TARGET=npm" >> $GITHUB_ENV
       - name: Install
         run: npm install
