@@ -18,7 +18,7 @@ jobs:
         node-version: [12.18.3]
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v1
         with:
           ref: ${{ github.event.inputs.tag }}
       - name: Use Node.js ${{ matrix.node-version }}
