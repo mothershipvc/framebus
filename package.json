@@ -28,9 +28,6 @@
   },
   "license": "MIT",
   "author": "Mothership <code@mothership.com>",
-  "dependencies": {
-    "@braintree/uuid": "^0.1.0"
-  },
   "devDependencies": {
     "@types/jest": "^26.0.19",
     "@wdio/cli": "^6.11.3",
