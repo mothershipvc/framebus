@@ -76,8 +76,7 @@ export class Framebus {
   emit(
     eventName: string,
     data?: FramebusSubscriberArg | FramebusReplyHandler,
-    reply?: FramebusReplyHandler,
-    _window = window.top || window.self
+    reply?: FramebusReplyHandler
   ): boolean {
     if (this.isDestroyed) {
       return false;
@@ -104,7 +103,7 @@ export class Framebus {
       return false;
     }
 
-    broadcast(_window, payload, origin);
+    broadcast(window.top || window.self, payload, origin);
 
     return true;
   }
