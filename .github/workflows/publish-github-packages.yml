@@ -40,7 +40,7 @@ jobs:
       - name: Install
         run: npm install
       - name: Build
-        run: npm run build
+        run: npm run prepublishOnly
 
 
 
